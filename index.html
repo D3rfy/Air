@@ -25,12 +25,14 @@
       </div>
     <!-- /header__block -->
       <nav class="nav">
-        <a href="#" class="nav__link h4">Home</a>
-        <a href="#" class="nav__link h4">Booking</a>
-        <a href="#" class="nav__link h4">Private Jet</a>
-        <a href="#" class="nav__link h4">Specification</a>
-        <a href="#" class="nav__link h4">Luxury Charters</a>
-        <a href="#" class="nav__link h4">Membership</a>
+        <ul class="nav__catalog">
+          <li class="catalog__item"><a href="#" class="nav__link h4">Home</a></li>
+          <li class="catalog__item"><a href="#" class="nav__link h4">Booking</a></li>
+          <li class="catalog__item"><a href="#" class="nav__link h4">Private Jet</a></li>
+          <li class="catalog__item"><a href="#" class="nav__link h4">Specification</a></li>
+          <li class="catalog__item"><a href="#" class="nav__link h4">Luxury Charters</a></li>
+          <li class="catalog__item"><a href="#" class="nav__link h4">Membership</a></li>
+        </ul>
       </nav>
 
       <div class="header__block">
@@ -45,6 +47,7 @@
 <!-- /container -->
 </header>
 
+<main>
 <!-- intro -->
 <section class="intro">
   <div class="container">
@@ -81,34 +84,91 @@
 <!-- info -->
 <section class="info">
   <div class="container">
-    <div class="info__wrapper">
-      <p class="info__text">
-        Round Trip
-      </p>
-      <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0.70999 1.71L3.29999 4.3C3.68999 4.69 4.31999 4.69 4.70999 4.3L7.29999 1.71C7.92999 1.08 7.47999 0 6.58999 0H1.40999C0.51999 0 0.0799904 1.08 0.70999 1.71Z" fill="#151515"/>
-      </svg>
-      <p class="info__text">
-        Flight Type
-      </p>
-      <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0.70999 1.71L3.29999 4.3C3.68999 4.69 4.31999 4.69 4.70999 4.3L7.29999 1.71C7.92999 1.08 7.47999 0 6.58999 0H1.40999C0.51999 0 0.0799904 1.08 0.70999 1.71Z" fill="#151515"/>
-      </svg>
-      <p class="info__text">
-        Person
-      </p>
-      <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0.70999 1.71L3.29999 4.3C3.68999 4.69 4.31999 4.69 4.70999 4.3L7.29999 1.71C7.92999 1.08 7.47999 0 6.58999 0H1.40999C0.51999 0 0.0799904 1.08 0.70999 1.71Z" fill="#151515"/>
-      </svg>
-        <div class="info__img">
-          <div class="info__block">
-            <div class="info__item">
+    <div class="schedule">
+      <ul class="schedule__navigation">
+        <li class="navigation__txt">Round Trip
+          <svg class="info__svg" width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.70999 1.71L3.29999 4.3C3.68999 4.69 4.31999 4.69 4.70999 4.3L7.29999 1.71C7.92999 1.08 7.47999 0 6.58999 0H1.40999C0.51999 0 0.0799904 1.08 0.70999 1.71Z" fill="#151515"/>
+            </svg>
+        </li>
+        <li class="navigation__txt">Flight Type
+          <svg class="info__svg" width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.70999 1.71L3.29999 4.3C3.68999 4.69 4.31999 4.69 4.70999 4.3L7.29999 1.71C7.92999 1.08 7.47999 0 6.58999 0H1.40999C0.51999 0 0.0799904 1.08 0.70999 1.71Z" fill="#151515"/>
+            </svg>
+        </li>
+        <li class="navigation__txt">Person
+          <svg class="info__svg" width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.70999 1.71L3.29999 4.3C3.68999 4.69 4.31999 4.69 4.70999 4.3L7.29999 1.71C7.92999 1.08 7.47999 0 6.58999 0H1.40999C0.51999 0 0.0799904 1.08 0.70999 1.71Z" fill="#151515"/>
+            </svg>
+        </li>
+      </ul>
 
-            </div>
-
-
-          </div>
+      <div class="info__wrapper">
+        <div class="airport-from">
+          <p class="high__text">FROM</p>
+          <p class="medium__text">LAX</p>
+          <p class="low__text">LOS ANGELES INTL ARPT,LOS ANGELES</p>
         </div>
+          <div class="arrowsrl">
+            <a href="">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="14" cy="14" r="13.7667" fill="white" stroke="#AAAAAA" stroke-width="0.466667"/>
+              <g clip-path="url(#clip0_0_35)">
+              <path d="M16.8292 15.2542L18.8708 17.2958L16.8292 19.3375" stroke="#151515" stroke-width="1.02083" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8.66251 17.2958H18.8708" stroke="#151515" stroke-width="1.02083" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M10.7042 13.2125L8.66251 11.1708L10.7042 9.12915" stroke="#151515" stroke-width="1.02083" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M18.8708 11.1708H8.66251" stroke="#151515" stroke-width="1.02083" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_0_35">
+              <rect width="16.3333" height="16.3333" fill="white" transform="translate(5.60001 6.06665)"/>
+              </clipPath>
+              </defs>
+              </svg>
+            </a>
+          </div>
+            <div class="airport-to">
+              <p class="high__text">To</p>
+              <p class="medium__text">MIA</p>
+              <p class="low__text">MIAMI INTL,MIAMI</p>
+            </div>
+              <div class="date">
+                <div class="departure">
+                  <p class="high__text">Departure</p>
+                  <p class="calend__text">Fri 15 Oct</p>
+                  <a class="calendar" href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_0_62)">
+                      <path d="M19.5 3.75H4.5C4.08579 3.75 3.75 4.08579 3.75 4.5V19.5C3.75 19.9142 4.08579 20.25 4.5 20.25H19.5C19.9142 20.25 20.25 19.9142 20.25 19.5V4.5C20.25 4.08579 19.9142 3.75 19.5 3.75Z" stroke="#151515" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M16.5 2.25V5.25" stroke="#151515" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M7.5 2.25V5.25" stroke="#151515" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M3.75 8.25H20.25" stroke="#151515" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M8.625 11.9996H11.25L9.75 13.8746C9.99664 13.8746 10.2395 13.9355 10.457 14.0517C10.6745 14.1679 10.86 14.336 10.9971 14.5411C11.1341 14.7461 11.2185 14.9818 11.2427 15.2273C11.267 15.4727 11.2303 15.7203 11.136 15.9482C11.0417 16.1761 10.8926 16.3772 10.702 16.5338C10.5114 16.6903 10.2852 16.7975 10.0433 16.8457C9.80143 16.8939 9.55139 16.8817 9.31534 16.8103C9.07928 16.7388 8.86449 16.6102 8.68999 16.4359" stroke="#151515" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M13.5 13.1248L15 11.9998V16.8748" stroke="#151515" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_0_62">
+                      <rect width="24" height="24" fill="white"/>
+                      </clipPath>
+                      </defs>
+                      </svg>
+                  </a>
+                    <div class="date__btn">
+                      <button class="btn__prev-nex" type="button"><u>Prev</u></button>
+                      <button class="btn__prev-nex" type="button">Next</button>
+                    </div>
+
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
       </div>
     </div>
   </div>
@@ -123,7 +183,7 @@
 
 
 
-<main>
+
   <section>
     <!-- ТАБЛИЦА -->
 

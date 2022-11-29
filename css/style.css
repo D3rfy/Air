@@ -48,13 +48,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a {
-  font-family: 'Poppins-Medium';
   text-decoration: none;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1rem;
-  line-height: 24px;
-  color: #151515;
 }
 
 .h1 {
@@ -94,6 +88,7 @@ body {
 /* header start */
 
 .container {
+  position: relative;
   width: 1110px;
   margin: 0 auto;
 }
@@ -162,6 +157,19 @@ height: 37px;
   display: flex;
 }
 
+.nav__catalog {
+  list-style: none;
+  display: flex;
+}
+
+.catalog__item {
+  margin-right: 20px;
+}
+
+.catalog__item:last-child {
+margin-right: 0;
+}
+
 .nav__link {
   margin-right: 20px;
   color: #181818;
@@ -193,10 +201,6 @@ margin-top: 83px;
   align-items: center;
 }
 
-.intro__block{
-
-}
-
 .intro__title {
   margin-bottom: 50px;
   max-width: 587px;
@@ -210,6 +214,12 @@ margin-top: 83px;
 display: flex;
 align-items: center;
 margin-left: 5px;
+font-family: 'Poppins-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height: 24px;
+color: #151515;
 }
 
 .arrow {
@@ -226,35 +236,181 @@ margin-left: 5px;
   margin-bottom: 107px;
 }
 /* Info Start */
+
 .info {
+  transform: translateY(-40%);
+}
+
+.schedule {
+  position: relative;
+  justify-content: center;
+  max-width: 1110px;
+  max-height: 266px;
+  width: 100%;
+  height: 100vw;
   background: #FFFFFF;
   box-shadow: 0px 30px 84px rgba(19, 10, 46, 0.08), 0px 8px 32px rgba(19, 10, 46, 0.07), 0px 3px 14px rgba(19, 10, 46, 0.03), 0px 1px 3px rgba(19, 10, 46, 0.13);
   border-radius: 12px;
-
 }
 
 .info__wrapper {
 display: flex;
-
 }
 
-.info__block {
-
+.airport-from {
+  max-width: 300px;
+  max-height: 117px;
+  width: 100%;
+  height: 100vw;
+  border: 1px solid #AAAAAA;
+  border-radius: 10px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  margin-left: 29px;
 }
 
-.info__item {
-
+.airport-to {
+  max-width: 300px;
+  max-height: 117px;
+  width: 100%;
+  height: 100vw;
+  border: 1px solid #AAAAAA;
+  border-radius: 10px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  margin-left: 6px;
 }
 
-.info__img {
-
+.date {
+  max-width: 381px;
+  max-height: 117px;
+  width: 100%;
+  height: 100vw;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  margin-left: 30px;
+  border: 1px solid #AAAAAA;
+  border-radius: 10px;
 }
 
-.info__title {
-
+.departure {
+  max-width: 156px;
+  max-height: 86px;
+  width: 100vw;
+  height:100vw;
+  margin-right: 0;
 }
 
-.info__text {
-
+.high__text {
+  display: flex;
+  margin-top: 16px;
+  margin-left: 20px;
+  width: 76px;
+  height: 21px;
+  font-family: 'Poppins-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #15151599;
 }
-/* Info End */ 6.14
+
+.navigation__txt {
+  margin-right: 19px;
+  font-family: 'Poppins-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #151515;
+}
+
+.schedule__navigation {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 29px;
+  list-style-type: none;
+}
+
+.information__text {
+  display: flex;
+}
+
+.medium__text {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 20px;
+  width: 44px;
+  height: 36px;
+  font-family: 'Poppins-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #151515;
+}
+
+.low__text {
+  margin-left: 20px;
+  font-family: 'Poppins-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: rgba(21, 21, 21, 0.6);
+}
+
+.info__svg {
+ margin-top: 44px;
+ margin-left: 12px;
+}
+
+.arrowsrl {
+  margin-top: 83px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.calend__text {
+  display: inline;
+  margin-left: 20px;
+  margin-top: 4px;
+  font-family: 'Poppins-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #151515;
+}
+
+
+.btn__prev-nex {
+  padding: 0;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: 'Poppins-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: rgba(21, 21, 21, 0.6);
+}
+
+.date__btn {
+  margin-left: 20px;
+}
+
+.calendar {
+margin-left: 28.75px;
+}
+
+/* Info End */
