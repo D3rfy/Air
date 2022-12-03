@@ -111,8 +111,42 @@ a {
   font-weight: 500;
   font-size: 1.125rem;
   line-height: 27px;
-  text-align: center;
   color: #151515;
+}
+
+.body3 {
+  font-family: "Poppins-Medium";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 40px;
+  color: #151515;
+}
+
+.body4 {
+  font-family: "Poppins-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.375rem;
+  line-height: 33px;
+  color: #a9a9aa;
+}
+
+.body5 {
+  font-family: "Poppins-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #151515;
+}
+
+.body6 {
+  font-family: "Poppins-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 40px;
 }
 
 p {
@@ -134,7 +168,7 @@ body {
 
 .container {
   position: relative;
-  width: 1110px;
+  width: 1232px;
   margin: 0 auto;
 }
 
@@ -709,15 +743,195 @@ body {
 .luxury__img {
   display: flex;
   justify-content: center;
+  margin-bottom: 0;
 }
 
 .luxury__txt {
-  text-align: center;
-  color: #151515;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 14px;
   font-weight: 500;
+  color: #151515;
 }
 /* /luxury */
 
 /* enjoy */
+.enjoy__text {
+  margin-top: 66px;
+}
 
+.enjoy__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.popular__card,
+.elite__card {
+  max-width: 400px;
+  max-height: 572px;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 105px;
+  background: #f5f5f5;
+}
+
+.elite__card {
+  border-radius: 0px 20px 20px 0px;
+}
+
+.popular__card {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.business__card {
+  max-width: 384px;
+  max-height: 572px;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 65px;
+  background: #656293;
+  border-radius: 20px;
+}
+
+.cost {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 24px;
+}
+
+.enjoy-head__text {
+  margin-top: 66px;
+}
+
+.enjoy__text {
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+.business__text {
+  margin-top: 24px;
+  margin-left: 24px;
+  color: #ffffff;
+}
+
+.what__text {
+  margin-top: 32px;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+
+.list__text {
+  display: flex;
+  align-items: center;
+  margin-left: 26px;
+  margin-bottom: 16px;
+}
+
+.businesslist__text {
+  display: flex;
+  align-items: center;
+  margin-left: 26px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.check {
+  margin-right: 10px;
+}
+
+.card-divider {
+  width: 352px;
+  height: 1px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border: 1px dashed #a9a9aa;
+}
+
+.businesscard-divider {
+  width: 336px;
+  height: 1px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border: 1px dashed #a9a9aa;
+}
+
+.btn__enjoy {
+  display: inline-block;
+  padding: 12px 16px;
+  width: 352px;
+  height: 64px;
+  border: 1px solid var(--ui-color);
+  font-size: 1.375rem;
+  font-family: "Poppins-Medium";
+  line-height: 120%;
+  color: #ffffff;
+  background-color: var(--ui-color);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.btnbusiness__enjoy {
+  display: inline-block;
+  padding: 12px 16px;
+  width: 336px;
+  height: 64px;
+  border: 1px solid #ffffff;
+  font-size: 1.375rem;
+  font-family: "Poppins-Medium";
+  line-height: 120%;
+  color: #151515;
+  background-color: #ffffff;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.btn__enj {
+  padding: 24px;
+}
+
+.plane {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 17px;
+}
 /* /enjoy */
+
+/* footer */
+.footer {
+  background: #656293;
+}
+
+.logo__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 51px;
+  padding-bottom: 35px;
+}
+
+.footer-divider {
+  display: flex;
+  justify-content: center;
+  width: 1110px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.footer__catalog {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer__item {
+  margin-right: 30px;
+}
+
+.footer__item:last-child {
+  margin-right: 0;
+}
+/* /footer */
